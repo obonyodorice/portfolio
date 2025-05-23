@@ -9,18 +9,7 @@ const Hero = ({ scrollToSection }) => {
     <section className="hero" id="home">
       <div className="hero-content">
         <img src={profile} alt="Dorice Adhiambo Obonyo" className="profile-pic" />
-        {/* <div className="profile-pic" style={{
-          background: 'linear-gradient(135deg, #ff6b6b, #4ecdc4)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: '3rem',
-          fontWeight: 'bold',
-          color: 'white',
-          margin: '0 auto 2rem'
-        }}>
-          DO
-        </div> */}
+        
         <h1>Dorice Adhiambo Obonyo</h1>
         <h2>University Student - Telecommunications, IT, and Networking</h2>
         <p>
@@ -29,7 +18,7 @@ const Hero = ({ scrollToSection }) => {
           implementing security protocols, and designing efficient database systems.
         </p>
         <div className="hero-buttons">
-          <a href="/portfolio/Dorice_Enhanced_CV.docx" download>
+          <a href="/Dorice_Enhanced_CV.docx" download>
             <Download size={20} />
             Download CV
           </a>
