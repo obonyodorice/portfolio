@@ -1,0 +1,109 @@
+/* src/components/Navbar/Navbar.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-bottom: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #6366f1;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.links-desktop {
+  display: none;
+  gap: 2rem;
+}
+
+.links-desktop button {
+  font-weight: 500;
+  color: #64748b;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.links-desktop button:hover {
+  color: #6366f1;
+  background-color: #f1f5f9;
+}
+
+.links-desktop button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  transition: width 0.3s ease;
+}
+
+.links-desktop button:hover::after {
+  width: 100%;
+}
+
+.menu-icon {
+  display: block;
+  padding: 0.5rem;
+  color: #64748b;
+  border-radius: 0.5rem;
+}
+
+.menu-icon:hover {
+  background-color: #f1f5f9;
+  color: #6366f1;
+}
+
+.links-mobile {
+  background: white;
+  border-top: 1px solid #e2e8f0;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.links-mobile button {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 500;
+  color: #64748b;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.links-mobile button:hover {
+  background-color: #f8fafc;
+  color: #6366f1;
+  transform: translateX(0.5rem);
+}
+
+@media (min-width: 768px) {
+  .links-desktop {
+    display: flex;
+  }
+  .menu-icon {
+    display: none;
+  }
+}
