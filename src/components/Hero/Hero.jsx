@@ -29,7 +29,7 @@ const Hero = ({ scrollToSection }) => {
           implementing security protocols, and designing efficient database systems.
         </p>
         <div className="hero-buttons">
-          <a href="/reactportfolio/Dorice_Enhanced_CV.docx" download>
+          <a href="/portfolio/Dorice_Enhanced_CV.docx" download>
             <Download size={20} />
             Download CV
           </a>
