@@ -21,18 +21,7 @@ const Education = () => {
     }
   ];
 
-  const certifications = [
-    {
-      title: "Cisco Networking Basics (Introduction to Networks)",
-      provider: "Coursera",
-      status: "Expected 2025"
-    },
-    {
-      title: "Google IT Support Fundamentals",
-      provider: "Coursera", 
-      status: "2024"
-    }
-  ];
+
 
   return (
     <section className="education" id="education">
@@ -68,13 +57,6 @@ const Education = () => {
           ))}
         </div>
 
-        <div className="certifications">
-          <h3>
-            <Award size={24} style={{ display: 'inline', marginRight: '0.5rem' }} />
-            Professional Certifications
-          </h3>
-          
-        </div>
       </div>
     </section>
   );
