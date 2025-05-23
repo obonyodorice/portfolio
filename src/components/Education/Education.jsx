@@ -37,7 +37,7 @@ const Education = () => {
   return (
     <section className="education" id="education">
       <div className="education-container">
-        <h2>Education & Certifications</h2>
+        <h2>Education </h2>
         
         <div className="timeline">
           {educationData.map((item, index) => (
@@ -73,14 +73,7 @@ const Education = () => {
             <Award size={24} style={{ display: 'inline', marginRight: '0.5rem' }} />
             Professional Certifications
           </h3>
-          <div className="cert-grid">
-            {certifications.map((cert, index) => (
-              <div key={index} className="cert-item">
-                <h4>{cert.title}</h4>
-                <p>{cert.provider} • {cert.status}</p>
-              </div>
-            ))}
-          </div>
+          
         </div>
       </div>
     </section>
