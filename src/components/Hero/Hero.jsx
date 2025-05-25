@@ -13,9 +13,8 @@ const Hero = ({ scrollToSection }) => {
         <h1>Dorice Adhiambo Obonyo</h1>
         <h2>University Student - Telecommunications, IT, and Networking</h2>
         <p>
-          Highly motivated and results-oriented student with a keen interest in networking, 
-          database management, and cloud technologies. Skilled in troubleshooting network issues, 
-          implementing security protocols, and designing efficient database systems.
+          Highly motivated and results-oriented student with a keen interest in networking and 
+          database management. Skilled in troubleshooting network issues and designing efficient database systems.
         </p>
         <div className="hero-buttons">
           <a href="/Dorice_Enhanced_CV.docx" download>

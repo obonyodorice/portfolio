@@ -4,7 +4,7 @@ import './Navbar.css';
 import { Menu, X } from 'lucide-react';
 
 const Navbar = ({ isMenuOpen, setIsMenuOpen, scrollToSection }) => {
-  const links = ['home', 'about', 'skills', 'projects', 'education', 'contact'];
+  const links = ['home', 'about', 'skills', 'education', 'contact'];
 
   return (
     <nav className="navbar">

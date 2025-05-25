@@ -9,7 +9,7 @@ const Education = () => {
       institution: "Pwani University",
       degree: "BSc. Telecommunications and Information Technology",
       duration: "2022 – Present",
-      coursework: "Data Structures, Computer Networks, Web Development, Database Systems, Cybersecurity",
+      coursework: "Computer Networks,Database Systems,Web Development",
       icon: <GraduationCap size={24} />
     },
     {

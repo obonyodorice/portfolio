@@ -13,9 +13,8 @@ const About = () => {
             <h3>About Me</h3>
             <p>
               Highly motivated and results-oriented Telecommunications and IT student with a keen interest 
-              in networking, database management, and cloud technologies. Skilled in troubleshooting network 
-              issues, implementing security protocols, and designing efficient database systems. Eager to 
-              apply academic knowledge to practical industry challenges and committed to continuous learning 
+              in networking and database management. Skilled in troubleshooting network 
+              issues and designing efficient database systems.I'm Eager to apply academic knowledge to practical industry challenges and committed to continuous learning 
               in the evolving field of technology.
             </p>
           </div>
@@ -26,7 +25,7 @@ const About = () => {
                 <Network size={24} />
               </div>
               <h4>Network Engineering</h4>
-              <p>Experienced in router and switch configuration, TCP/IP, DNS, DHCP, and LAN/WAN setup</p>
+              <p>Experienced in router and switch configuration, TCP/IP and LAN/WAN setup</p>
             </div>
             
             <div className="highlight-item">
@@ -34,23 +33,17 @@ const About = () => {
                 <Database size={24} />
               </div>
               <h4>Database Management</h4>
-              <p>Proficient in MySQL and SQL Server with experience in designing relational database systems</p>
+              <p>Skilled in MySQL and SQL Server with experience in designing relational database systems</p>
             </div>
             
-            <div className="highlight-item">
-              <div className="highlight-icon">
-                <Shield size={24} />
-              </div>
-              <h4>Cybersecurity</h4>
-              <p>Knowledge of firewall setup, data protection techniques, and security protocol implementation</p>
-            </div>
+            
             
             <div className="highlight-item">
               <div className="highlight-icon">
                 <BookOpen size={24} />
               </div>
               <h4>Continuous Learning</h4>
-              <p>Currently pursuing certifications in Cisco Networking and Google IT Support</p>
+              <p>Currently pursuing certifications in Cisco Networking</p>
             </div>
           </div>
         </div>

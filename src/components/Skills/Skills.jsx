@@ -23,7 +23,7 @@ const Skills = () => {
     {
       icon: <Wrench size={24} />,
       title: "Tools & Technologies",
-      skills: ["Microsoft Office", "Wireshark", "Packet Tracer", "Visual Studio Code"]
+      skills: ["Microsoft Office", "Packet Tracer", "Visual Studio Code"]
     }
   ];
 
@@ -31,10 +31,7 @@ const Skills = () => {
     "Router Configuration",
     "Switch Configuration", 
     "TCP/IP",
-    "DNS",
-    "DHCP",
     "LAN/WAN Setup",
-    "Firewall Setup",
     "VLAN Segmentation"
   ];
 
@@ -48,7 +45,7 @@ const Skills = () => {
   return (
     <section className="skills" id="skills">
       <div className="skills-container">
-        <h2>Skills & Expertise</h2>
+        <h2>Skills</h2>
         
         <div className="skills-grid">
           {technicalSkills.map((category, index) => (
@@ -69,7 +66,7 @@ const Skills = () => {
             <div className="skill-icon">
               <Wrench size={24} />
             </div>
-            <h3>Networking & Cybersecurity</h3>
+            <h3>Networking</h3>
             <div className="skill-tags">
               {networkingSkills.map((skill, index) => (
                 <span key={index} className="skill-tag">{skill}</span>
